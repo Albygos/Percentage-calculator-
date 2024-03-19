@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8" ?> 
+<html class='ltr' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<title>Percentage Calculator</title>
+	<meta name="description" content="This free percentage calculator computes a number of values involving percentages, including the percentage difference between two given values." />
+<meta name="Keywords" content="percentage calculator">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="icon" href="" type="image/gif" sizes="16x16">
+<link rel="icon" type="image/png" sizes="16x16" href="//d26tpo4cm8sb6k.cloudfront.net/icon-16x16.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<meta name="google-site-verification" content="UG9YhVOoMWTjY9x-e8UdwUAHDUSd947hE9bLFgimv4U" />
+  <style>
+    .btn {
+  line-height: 24px;
+  height: 36px;
+  width 30%;
+  font-size: 15px;
+  vertical-align: top;
+}
+.fancy {
+	color:black;
+	font-weight:bold;
+	padding:20px;
+	}
+
+  </style>
+  
+</head>
+
+<body>
+  
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+    </div>
+    
+<!-- Button to Open the Privacy Page Modal -->
+<a class="fancy" href="https://calcr.w3spaces.com/About_us.html">About us</a>&nbsp;&nbsp;&nbsp;<tr><a class="fancy" href="https://calcr.w3spaces.com/privacy_policy.html">privacy policy </a></a>
+   &nbsp;&nbsp;&nbsp;<tr><a class="fancy" href="https://calcr.w3spaces.com/Contact_us.html">contact us </a></a>
+    
+    
+  </div>
+</nav>
+
+                  
+<style id='page-skin-1' type='text/css'>
+
+button {
+  background-color: #FB4930; /* Red */
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: px;
+}
+
+</style>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  
+
+<!-- About page Modal -->
+<!-- The Modal -->
+<div class="modal" id="about-page">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">About Page</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+   <p>Welcome where we are dedicated to simplifying your mathematical calculations. Our online calculator is designed to assist you effortlessly with operations like addition, subtraction, multiplication, and division. Whether you're a student tackling homework or a professional in need of quick calculations, we've got you covered.</p>
+
+    
+    <p>Our mission is to provide a user-friendly platform that empowers individuals to perform mathematical operations with ease. We believe in the importance of accessibility and aim to make complex calculations accessible to everyone.</p>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End About page Modal -->
+
+<!-- Contact Modal -->
+<!-- The Modal -->
+<div class="modal" id="Contact-Us">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Contact Us</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       
+	   if you have any questions, feedback, or suggestions, feel free to get in touch with us. We value your input and are here to assist you. You can reach us via email at :calcr@gmail.com
+	   
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End privacy page Modal -->
+
+<!-- privacy page Modal -->
+<!-- The Modal -->
+<div class="modal" id="privacy-page">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"><a>Privacy Page</a></h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        
+		    Your privacy is important to us at calcr. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use our online calculator platform.
+    information Collection and Usage
+    We may collect basic information such as IP addresses and browser details for system administration and statistical purposes. We do not collect personally identifiable information unless provided voluntarily through our contact form or other means.
+
+    Information Sharing
+    We do not sell, trade, or transfer your personally identifiable information to outside parties. Your information may be disclosed only when required by law or to protect our rights, property, or safety.
+
+    Security Measures
+    We implement reasonable security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information
+
+    Updates to Privacy Policy
+    We reserve the right to update our Privacy Policy, and any changes will be posted on this page. It is your responsibility to review this Privacy Policy periodically for updates.
+
+    if you have any questions or concerns regarding our Privacy Policy, please contact us at [privacy@calcr.com](mailto:privacy@calcr.com)
+		
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End privacy page Modal -->
+
+
+
+
+<!-- Heading & Description -->
+
+
+<div class="generator">
+  <div class="generator__questions">
+   <h1 style="text-align: center;">All in one percentage calculator</h1>
+
+ 
+<!-- Main Script -->
+
+  <div class='container'>
+<table style='width: 100%; ;>
+  
+<input class="form-control col-lg-6" id="getUrl" placeholder="Paste Your Photo & Video Link Here" type="url" value="" /><br />   
+
+  <p></p>
+<center><button class='download btn-outline' type="submit" onclick='getMedia()'></button></center><br />
+<br />
+
+<div class="dummyData"></div><!--Theme Functions JS--><br />
+  
+  
+<script>
+   const render = document.querySelector('#downloadResult');
+   const TECHBHAVESH = document.querySelector('.dummyData');
+var pattern = new RegExp('https://www.instagram.com/(.+?)');
+  
+
+function getMedia() {
+    console.log('Inside function');
+render.innerHTML = `<div class="insta-image-placeholder">
+`;
+//novalue
+  // get input value
+  let url = document.getElementById("getUrl").value;
+   console.log(url);
+ if(url.match(pattern)){
+    console.log('Inside Patter');
+ if (url) {
+      console.log('Inside Url');
+
+    fetch(url).
+    then(r => r.text()).
+    then(r => {
+      // render html
+          console.log('Inside fetch');
+   
+   TECHBHAVESH.innerHTML = r;
+
+      // wait, find meta and create video or image
+      let w = setTimeout(() => {
+        let v = document.querySelector('meta[property="og:video"]');
+        if (v) {
+          createVideo(v);
+        } else {
+          let img = document.querySelector('meta[property="og:image"]');
+          if (img) {
+            createImg(img);
+          } else {
+document.querySelector('#getUrl').setAttribute('placeholder', 'Invalid address, use a proper Instagram link'); document.getElementById("getUrl").value = "";
+document.getElementById("getUrl").focus();
+alert("Error extracting Instagram image or video.");
+          };
+        }
+        clearTimeout(w);
+      }, 200);
+    });
+   } 
+}
+else {
+    document.querySelector('#getUrl').setAttribute('placeholder', 'Invalid address, use a proper Insagram link');
+document.getElementById("getUrl").value = "";
+document.getElementById("getUrl").focus(); 
+  }
+};
+  
+  // create video
+const createVideo = data => {
+  let v = document.createElement('video');
+  v.id = "instavideo";
+  v.src = data.content; 
+  v.controls = true;
+  v.autoplay = true;
+  console.log("Inside Create Video");
+  // create info
+  let info = document.createElement('p');
+  info.textContent = "Click the right button on the image and select save As Option";
+ 
+  render.innerHTML = ""; 
+  render.appendChild(v);
+  render.appendChild(info);
+ 
+};
+// create image
+const createImg = data => {
+  // create image
+  let i = document.createElement('img');
+  i.id = "instaImg";
+  i.src = data.content;
+ 
+    console.log("Inside Create Img")
+
+  // create info
+  let info = document.createElement('p');
+  info.textContent = "Click the right button on the image and select save image Option";
+ 
+  render.innerHTML = ""; 
+  render.appendChild(i);  
+  render.appendChild(info); 
+ 
+};
+
+</script>
+ <script>
+            function calculatePercentage() {
+                const originalNumber = parseFloat(document.getElementById('originalNumber').value);
+                const percentage = parseFloat(document.getElementById('percentage').value);
+
+                if (!isNaN(originalNumber) && !isNaN(percentage)) {
+                    const result = (originalNumber * percentage) / 100;
+                    document.getElementById('result').textContent = result.toFixed(2) + '%';
+                } else {
+                    document.getElementById('result').textContent = 'Invalid input';
+                }
+            }
+
+            function calculatePartPercentage() {
+                const partNumber = parseFloat(document.getElementById('partNumber').value);
+                const wholeNumber = parseFloat(document.getElementById('wholeNumber').value);
+
+                if (!isNaN(partNumber) && !isNaN(wholeNumber) && wholeNumber !== 0) {
+                    const result = (partNumber / wholeNumber) * 100;
+                    document.getElementById('partResult').textContent = result.toFixed(2) + '%';
+                } else {
+                    document.getElementById('partResult').textContent = 'Invalid input';
+                }
+            }
+
+            function calculatePercentError() {
+                const experimentalValue = parseFloat(document.getElementById('experimentalValue').value);
+                const theoreticalValue = parseFloat(document.getElementById('theoreticalValue').value);
+
+                if (!isNaN(experimentalValue) && !isNaN(theoreticalValue) && theoreticalValue !== 0) {
+                    const error = ((experimentalValue - theoreticalValue) / theoreticalValue) * 100;
+                    document.getElementById('errorResult').textContent = error.toFixed(2) + '%';
+                } else {
+                    document.getElementById('errorResult').textContent = 'Invalid input';
+                }
+            }
+        </script>
+        
+    <div id="calculator">
+        <label for="originalNumber">Original Number:</label>
+        <input type="number" id="originalNumber">
+
+        <label for="percentage">Percentage:</label>
+        <input type="number" id="percentage">
+
+        <button onclick="calculatePercentage()">Calculate</button>
+
+        <h3>Result:</h3>
+        <p id="result">-</p>
+
+        <!-- New Section 1 -->
+        	<h3> part Percentage Calculator
+</h3>
+        <hr>
+
+        <label for="partNumber">Part Number:</label>
+        <input type="number" id="partNumber" placeholder="e.g., 20">
+
+        <label for="wholeNumber">Whole Number:</label>
+        <input type="number" id="wholeNumber" placeholder="e.g., 5">
+
+        <button onclick="calculatePartPercentage()">Calculate</button>
+
+        <h3>Result:</h3>
+        <p id="partResult">-</p>
+
+        <!-- New Section 2 -->
+        	<h3> Error Percentage Calculator
+</h3>
+        <hr>
+
+        <label for="experimentalValue">Experimental Value:</label>
+        <input type="number" id="experimentalValue">
+
+        <label for="theoreticalValue">Theoretical Value:</label>
+        <input type="number" id="theoreticalValue">
+
+        <button onclick="calculatePercentError()">Calculate</button>
+
+        <h3>Result:</h3>
+        <p id="errorResult">-</p>
+
+
+    </div>
+<!-- Main Script -->
+  
+ <!-- Paste Details Here -->
+ 
+ <!-- Paste Details Here -->
+ 
+<hr>
+ 
+ <center><div class="py-4 text-center bg-white">
+    <p>
+      &copy; - <span id="copy-year">2024</span> Copyright by
+      <a class="fancy text generator" href="https://calcr.w3spaces.com/">percentage calculator</a>
+	</p>
+  </div></center>
+  
+
+</body>
+</html>
